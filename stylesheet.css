@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+/* !important betyder at den kode er vigtigst og derfor tager den fat i den */
+.navbar{
+    background-image: linear-gradient(to right,#8d7d70,#A4907C, #C8B6A6  ) !important; 
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.footer{
+    background-image: linear-gradient(to right,#8d7d70,#A4907C, #C8B6A6  ) !important;
+    padding-top: 15px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.text-center{
+    background-image: linear-gradient(to right,#8d7d70,#A4907C, #C8B6A6  ) !important;
+}
+
+.text-center p{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.bi{
+    color: white;
+}
+
+.dropdown-menu{
+    background-image: linear-gradient(to right,#8d7d70,#A4907C, #C8B6A6) !important;
+    border-color: white;
+}
+
+.dropdown-menu a:hover{
+    background-color: #A4907C;
+}
+
+
+
+
+
