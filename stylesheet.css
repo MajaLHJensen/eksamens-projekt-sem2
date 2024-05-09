@@ -1,6 +1,10 @@
 *{
     padding: 0px;
     margin: 0;
+    font-family: "serenity", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
 }
 
 /* !important betyder at den kode er vigtigst og derfor tager den fat i den */
@@ -10,6 +14,7 @@
 
 .navbar a{
     color: white !important;
+   
 }
 
 .footer{
@@ -43,7 +48,46 @@
     background-color: #A4907C;
 }
 
+.omOs body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.omOs{
+    margin:50px auto;
+    width: 80%; /* Bestemmer hvor meget mellemrum der skal være i venstre side */
+}
+  
+.omOs img{
+    max-width: 260px; /* Ændre billedet størrelse */
+    float: left; /* Billedet rykker mod højre */
+    padding-bottom: 30px;
+}
+
+.omTekst{
+    color: #0c0f1d;
+    line-height: 1.5;
+}
+  
+.omTekst h2{
+    font-size: 42px;
+    padding-top: 30px;
+}
+  
+.omTekst p{
+    font-size: 18px;
+}
+ 
+.icon1, .icon2, .icon3{
+    padding: 0 5px;
+    padding-bottom: 10px;
+}
 
 
 
 
+
+
+/* Spørgsmål til Morten: Skifte skrifttype i navbaren både på logo og a */
+/* Kan ikke fjerne padding fra ikonerne i footeren */
