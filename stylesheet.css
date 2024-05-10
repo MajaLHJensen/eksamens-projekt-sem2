@@ -48,6 +48,8 @@
     background-color: #A4907C;
 }
 
+
+/* Om os underside */
 .omOs body{
     display: flex;
     justify-content: center;
@@ -83,6 +85,100 @@
     padding: 0 5px;
     padding-bottom: 10px;
 }
+
+@media screen and (min-width: 1024px) {
+    .omOs img{
+        max-width: 300px;
+        padding-right: 20px;
+    }
+
+    .icon1, .icon2, .icon3{
+        padding-top: 20px;
+    }
+
+    .omTekst h2{
+        padding-top: 20px;
+        margin-top: 60px;
+    }
+}
+/* Om os underside */
+
+/* Kontaktformular */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ebe5e5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    justify-content: center;
+    display: flex;
+  }
+  
+  input[type=submit] {
+    background-color: #C8B6A6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #C8B6A6;
+  }
+  
+  .container {
+    width: 80%; 
+    min-height: 10vh;
+    border-radius: 5px;
+    background-color: #cccfcc;
+    padding: 2rem;
+    justify-content: center;
+    border-color: violet;
+    background-color: #C8B6A6;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+/* Kontaktformular */
+
+.kontaktTekst p{
+    align-items: center;
+}
+
+.kontaktTekst, .kontaktIndhold{
+  position: relative;
+  min-height: 5vh;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.kontaktTekst h2{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.kontaktIndhold h3{ 
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
