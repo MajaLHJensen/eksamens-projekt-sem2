@@ -119,14 +119,14 @@ input[type=text], select, textarea {
   input[type=submit] {
     background-color: #ad9c8e;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 82px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
   input[type=submit]:hover {
-    background-color: #C8B6A6;
+    background-color: #88786a;
   }
   
   .container {
@@ -138,7 +138,7 @@ input[type=text], select, textarea {
     justify-content: center;
     border-color: violet;
     background-color: #C8B6A6;
-    padding-left: 20px;
+    padding-left: 30px;
     margin-top: 20px;
 }
 /* Kontaktformular */
@@ -168,9 +168,185 @@ input[type=text], select, textarea {
     padding-top: 5px;
 }
 
-@media screen and (min-width: 1024px){
-    
+.forsideBillederSmykker img{
+    width: 55%;
 }
+
+.forsideTekst{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 5px;
+    width: 100%;
+}
+
+.forsidebillede1, .forsidebillede2{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.forsidebillede1 img, .forsidebillede2 img{
+    display: inline-block;
+}
+
+@media screen and (min-width:1024px){
+    .forsideBillederSmykker{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .forsidebillede1, .forsidebillede2{
+        width: 50%;
+        position: relative;
+    }
+
+    .forsidebillede1 img, .forsidebillede2 img{
+        width: 50%;
+    }
+}
+
+/* .forsideBillede img{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.centreret{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centreret p{
+    text-align: center;
+    text-wrap: wrap;
+    color: white;
+    font-size: 17px;
+}
+
+.centreret, .knap{
+    justify-content: center;
+    text-align: center;
+}  */
+/* .line a{
+    text-decoration: none;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(IMG_2798.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.forsideBillede{
+    margin-bottom: 150px;
+    color: white;
+    text-align: center;
+}
+
+.forsideBillede h2{
+    font-size: 5vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.forsideBillede h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background: red;
+    border-radius: 30px;
+    color: white;
+} */
+
+
+.header{
+    min-height: 60vh;
+    width: 100%;
+    background-image: url(IMG_2798.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  
+  .text-box h1{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.68);
+  }
+  
+  .text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  
+  .hero-btn:hover{
+    border: 1px solid #303073;
+    background: #303073;
+    transition: 1s;
+  }
+  
+  .om-btn{
+    display: inline-block;
+    color: #0c0f1d;
+    border: 1px solid #0c0f1d;
+    padding: 12px 40px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  .om-btn:hover{
+    border: 1px solid #303073;
+    background: #303073;
+    transition: 1s;
+  }
+
+
+
+
+
 
 
 
