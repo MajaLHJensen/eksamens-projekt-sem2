@@ -4,7 +4,6 @@
     font-family: "serenity", sans-serif;
     font-weight: 300;
     font-style: normal;
-    
 }
 
 /* !important betyder at den kode er vigtigst og derfor tager den fat i den */
@@ -118,7 +117,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #C8B6A6;
+    background-color: #ad9c8e;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -169,21 +168,13 @@ input[type=text], select, textarea {
     padding-top: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 1024px){
+    
+}
 
 
 
 
 /* Spørgsmål til Morten: Skifte skrifttype i navbaren både på logo og a */
 /* Kan ikke fjerne padding fra ikonerne i footeren */
+/* Sætte kontaktformularen ved siden af teksten når det er computer størrelse */
