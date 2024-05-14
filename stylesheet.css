@@ -13,7 +13,6 @@
 
 .navbar a{
     color: white !important;
-   
 }
 
 .footer{
@@ -85,10 +84,13 @@
     padding-bottom: 10px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .omOs img{
-        max-width: 300px;
+        max-width: 500px;
         padding-right: 20px;
+        padding-top: 20px;
+        height: 790px;
+        padding-bottom: 50px;
     }
 
     .icon1, .icon2, .icon3{
@@ -96,8 +98,7 @@
     }
 
     .omTekst h2{
-        padding-top: 20px;
-        margin-top: 60px;
+        margin-top: -10px;
     }
 }
 /* Om os underside */
@@ -129,7 +130,7 @@ input[type=text], select, textarea {
     background-color: #88786a;
   }
   
-  .container {
+.container {
     width: 80%; 
     min-height: 10vh;
     border-radius: 5px;
@@ -141,8 +142,30 @@ input[type=text], select, textarea {
     padding-left: 30px;
     margin-top: 20px;
 }
+
+.box{
+    width: 500px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:1024px){
+    main{
+        justify-content: space-evenly;
+    }
+
+    .kontakt{
+        padding-top: 80px;
+    }
+    
+}
 /* Kontaktformular */
 
+/* Kontakt underside */
 .kontaktTekst p{
     align-items: center;
 }
@@ -168,13 +191,16 @@ input[type=text], select, textarea {
     padding-top: 5px;
 }
 
+/* Kontakt underside */
+
+/* Smykke billeder på forsiden */
 .forsideBillederSmykker img{
     width: 55%;
 }
 
 .forsideTekst{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
     line-height: 5px;
     width: 100%;
 }
@@ -186,9 +212,11 @@ input[type=text], select, textarea {
 
 .forsidebillede1 img, .forsidebillede2 img{
     display: inline-block;
+    margin-bottom: 20px;
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:768px){
+
     .forsideBillederSmykker{
         display: flex;
         flex-wrap: wrap;
@@ -201,83 +229,17 @@ input[type=text], select, textarea {
 
     .forsidebillede1 img, .forsidebillede2 img{
         width: 50%;
+        display: inline-block;
     }
 }
 
-/* .forsideBillede img{
-    position: relative;
-    text-align: center;
-    width: 100%;
-}
+/* Smykke billeder på forsiden */
 
-.centreret{
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.centreret p{
-    text-align: center;
-    text-wrap: wrap;
-    color: white;
-    font-size: 17px;
-}
-
-.centreret, .knap{
-    justify-content: center;
-    text-align: center;
-}  */
-/* .line a{
-    text-decoration: none;
-}
-.section{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(IMG_2798.jpeg);
-    background-position: bottom;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.forsideBillede{
-    margin-bottom: 150px;
-    color: white;
-    text-align: center;
-}
-
-.forsideBillede h2{
-    font-size: 5vmin;
-}
-
-.line{
-    width: 150px;
-    height: 4px;
-    background: red;
-    margin: 10px auto;
-    border-radius: 5px;
-}
-
-.forsideBillede h1{
-    font-size: 7vmin;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-.ctn{
-    padding: 8px 15px;
-    background: red;
-    border-radius: 30px;
-    color: white;
-} */
-
-
+/* Forsidebillede med tekst på */
 .header{
     min-height: 60vh;
     width: 100%;
-    background-image: url(IMG_2798.jpeg);
+    background-image: url(IMG_2798.jpeg); /* Forside billede */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -291,24 +253,24 @@ input[type=text], select, textarea {
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-  }
+}
   
   .text-box h1{
-    font-size: 60px;
-    color: rgba(255, 255, 255, 0.68);
+    font-size: 45px;
+    color: white;
   }
   
-  .text-box p{
-    margin: 10px 0 40px;
-    font-size: 20px;
+  .p2{
+    margin: 10px 0 20px;
+    font-size: 15px;
     color: #ffffff;
   }
   
   .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    color: white;
+    border: 1px solid white;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -319,30 +281,102 @@ input[type=text], select, textarea {
   }
   
   .hero-btn:hover{
-    border: 1px solid #303073;
-    background: #303073;
+    border: 1px solid rgb(191, 180, 180);
+    background: rgb(191, 180, 180);
     transition: 1s;
   }
   
-  .om-btn{
-    display: inline-block;
-    color: #0c0f1d;
-    border: 1px solid #0c0f1d;
-    padding: 12px 40px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-    border-radius: 6px;
-    text-decoration: none;
-  }
-  
-  .om-btn:hover{
-    border: 1px solid #303073;
-    background: #303073;
-    transition: 1s;
+  .p1{
+    font-size: 15px;
   }
 
+  @media screen and (min-width:1024px) {
+    .text-box h1{
+        font-size: 70px;
+      }
+      
+      .p2{
+        font-size: 30px;
+        color: #ffffff;
+      }
+
+      .p1{
+        font-size: 30px;
+      }
+
+        
+    .hero-btn{
+     font-size: 25px;
+     margin-top: 30px;
+    
+    }
+}
+
+@media screen and (min-width:768px) {
+    .text-box h1{
+        font-size: 70px;
+      }
+      
+      .p2{
+        font-size: 25px;
+        color: #ffffff;
+      }
+
+      .p1{
+        font-size: 20px;
+      }
+
+        
+    .hero-btn{
+     font-size: 17px;
+     margin-top: 30px;
+    
+    }
+}
+/* Forsidebillede med tekst på */
+
+.halskæderDisplay img, .armbåndDisplay img{
+    width: 55%;
+}
+
+.halskædeTekst, .armbåndTekst{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 5px;
+    width: 100%;
+}
+
+.halskædeTekst h4, .armbåndTekst h4{
+    font-size: 17px;
+}
+
+.halskædeBillede1, .halskædeBillede2, .halskædeBillede3, .armbåndBillede1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.halskædeBillede1 img, .forsidebillede2 img, .halskædeBillede3 img, .armbåndBillede1 img{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px){
+
+    .halskæderDisplay, .armbåndDisplay{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .halskædeBillede1, .halskædeBillede2, .halskædeBillede3, .armbåndBillede1{
+        width: 33%;
+        position: relative;
+    }
+
+    .halskædeBillede1 img, .halskædeBillede2 img, .halskædeBillede3 img, .armbåndBillede1 img{
+        width: 65%;
+        display: inline-block;
+    }
+}
 
 
 
