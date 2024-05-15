@@ -360,6 +360,7 @@ main{
     margin-bottom: 20px;
 }
 
+
 @media screen and (min-width:768px){
 
     .halskæderDisplay, .armbåndDisplay{
@@ -378,13 +379,107 @@ main{
     }
 }
 
+/* Halskæde underside */
+.tekstUnderside{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 5px;
+    width: 100%;
+}
+
+.tekstUnderside h4{
+    font-size: 17px;
+}
+
+video{
+    padding-top: 30px;
+    max-width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.materialeListe, ul{
+    justify-content: center;
+}
+
+.carousel-materiale{
+}
+
+@media screen and (min-width:768px){
+    video{
+        margin-left: 20%;
+        max-width: 60%;
+        height: auto;
+    }
+}
+
+/* Carousel start */
+.carousel{
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:768px){
+
+    .carousel{
+        width: 50%;
+        margin: 0 auto;
+    }
+ 
+}
+/* Carousel slut */
 
 
 
 
 
 
+.materialeListe{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 5px;
+    width: 100%;
+}
+
+.ulClass{
+    padding-left: 31%;
+}
+
+.materialeListe h3{
+    font-size: 30px;
+}
+
+.carousel{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.carousel{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px){
+    .carousel-materiale{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .halskædeBillede1, .halskædeBillede2, .halskædeBillede3, .armbåndBillede1{
+        width: 33%;
+        position: relative;
+    }
+
+    .halskædeBillede1 img, .halskædeBillede2 img, .halskædeBillede3 img, .armbåndBillede1 img{
+        width: 65%;
+        display: inline-block;
+    }
+}
 
 /* Spørgsmål til Morten: Skifte skrifttype i navbaren både på logo og a */
 /* Kan ikke fjerne padding fra ikonerne i footeren */
 /* Sætte kontaktformularen ved siden af teksten når det er computer størrelse */
+
+
+
+
